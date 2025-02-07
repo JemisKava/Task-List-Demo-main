@@ -50,7 +50,6 @@ export const ComboBox: React.FC<ComboBoxProps> = ({
       <PopoverTrigger asChild>
         <Button
           variant="outline"
-          role="combobox"
           aria-expanded={open}
           aria-haspopup="listbox"
           className="flex w-full items-center justify-between gap-2"
