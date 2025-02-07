@@ -53,7 +53,7 @@ export const ComboBox: React.FC<ComboBoxProps> = ({
           role="combobox"
           aria-expanded={open}
           aria-haspopup="listbox"
-          className="flex w-full items-center justify-between gap-2"
+          className="flex w-full  justify-between gap-2"
         >
           <span className="truncate">{selectedItem}</span>
           <div className="flex items-center justify-between gap-2">
