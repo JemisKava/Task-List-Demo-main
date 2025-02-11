@@ -40,6 +40,7 @@ export const ComboBox: React.FC<ComboBoxProps> = ({
   children,
   selectedItem,
   placeholder = "Search...",
+  isLoading = false,
 }) => {
   const [open, setOpen] = useState(false);
 
