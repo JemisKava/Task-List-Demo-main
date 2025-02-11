@@ -49,6 +49,7 @@ export const ComboBox: React.FC<ComboBoxProps> = ({
       {/* Trigger button */}
       <PopoverTrigger asChild>
         <Button
+          variant="outline"
           role="combobox"
           aria-expanded={open}
           aria-haspopup="listbox"
