@@ -42,7 +42,7 @@ export const ComboBox: React.FC<ComboBoxProps> = ({
   placeholder = "Search...",
   isLoading = false,
 }) => {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
 
   return (
     <Popover open={open} onOpenChange={setOpen}>
