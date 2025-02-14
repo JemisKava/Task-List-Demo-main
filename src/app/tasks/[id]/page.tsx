@@ -24,7 +24,7 @@ export default async function TaskPage({ params }: { params: Params }) {
         role="alert"
         className="flex items-center justify-center p-4 text-red-600"
       >
-        No task id
+        No task id provided
       </div>
     );
   }
