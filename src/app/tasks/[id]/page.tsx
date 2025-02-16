@@ -18,13 +18,13 @@ export default async function TaskPage({ params }: { params: Params }) {
   const { id } = await params;
 
   // Handle missing task ID
-  if (id) {
+  if (!id) {
     return (
       <div
         role="alert"
         className="flex items-center justify-center p-4 text-red-600"
       >
-        No task id provided
+        No task id
       </div>
     );
   }
