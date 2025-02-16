@@ -18,7 +18,7 @@ export default async function TaskPage({ params }: { params: Params }) {
   const { id } = await params;
 
   // Handle missing task ID
-  if (id) {
+  if (!id) {
     return (
       <div
         role="alert"
